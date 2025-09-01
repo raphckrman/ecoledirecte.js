@@ -1,5 +1,5 @@
 import { Gender, Permissions } from "../utils/Constants";
-import { StudentClass } from "../utils/student";
+import { StudentClass } from "../types/student";
 import { School } from "./School";
 
 export class EcoleDirecte {
