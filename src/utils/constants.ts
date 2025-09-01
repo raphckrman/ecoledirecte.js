@@ -1,5 +1,15 @@
 export const APP_VERSION = "7.3.1"
 
+export enum AccountKind {
+  STUDENT
+}
+
+export enum Gender {
+  MALE,
+  FEMALE,
+  NOT_SPECIFIED
+}
+
 export enum Permissions {
   HUB,
   FORMS,
@@ -10,6 +20,7 @@ export enum Permissions {
   HOMEWORKS,
   ATTENDANCE,
   CLASS_LIFE,
+  ENABLE_2FA,
   CLOUD_DRIVE,
   SCHOOL_BOOKS,
   CLASS_JOURNAL,
@@ -18,6 +29,7 @@ export enum Permissions {
   CANTEEN_BARCODE,
   FINANCIAL_STATUS,
   STUDENT_DOCUMENTS,
+  ROBERT_DICTIONNARY,
   CANTEEN_RESERVATION,
   CORRESPONDENCE_BOOK,
   INTERNSHIP_TRACKING,
